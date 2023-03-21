@@ -1,5 +1,10 @@
 # micro-fe-dashboard-sample
 
+## Tech Stack
+Auth app, Marketing app, Container app are building by React <br>
+Dashboard app is building by Vue3 <br>
+Deployment: github action workflow, AWS S3, AWS CloudFront <br>
+
 ## Demo
 Check Demo url: https://d338ek8892e0fm.cloudfront.net
 
