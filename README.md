@@ -1,4 +1,5 @@
 # micro-fe-dashboard-sample
+This is a sample project for micro front-end technology validation, you can check the commit history to see the logic added and modified in each step
 
 ## Tech Stack
 Auth app, Marketing app, Container app are building by React <br>
