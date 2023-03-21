@@ -1,6 +1,20 @@
 # micro-fe-dashboard-sample
+
+## Demo
+Check Demo url: https://d338ek8892e0fm.cloudfront.net/container/latest/index.html
+
+## How to run the project on local:
+1. git clone project
+2. Run `cd` command jump into every sub-app, and run `npm install`
+3. Run `cd` command jump into every sub-app, then run `npm run start`
+4. Access `localhost: 9080` (Container App - Main App)
+
+## How to deploy:
+1. Prepare your AWS account
+2. Create your own S3 bucket and cloudFront distribution
+3. Prepare the access key and other secrets (You can read `/.github/**.yml`files)
  
-## Deployment
+### Deployment
 - Want to deploy each microfrontend independently (including the container)
 - Location of child app remoteEntry.js files must be known at build time
 - Many front-end deployment solutions assume you're deploying a single project. We need something that can handle multiple different ones
