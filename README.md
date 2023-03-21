@@ -1,7 +1,7 @@
 # micro-fe-dashboard-sample
 
 ## Demo
-Check Demo url: https://d338ek8892e0fm.cloudfront.net/container/latest/index.html
+Check Demo url: https://d338ek8892e0fm.cloudfront.net
 
 ## How to run the project on local:
 1. git clone project
