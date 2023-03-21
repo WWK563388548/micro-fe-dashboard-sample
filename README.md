@@ -9,6 +9,41 @@ Check Demo url: https://d338ek8892e0fm.cloudfront.net
 3. Run `cd` command jump into every sub-app, then run `npm run start`
 4. Access `localhost: 9080` (Container App - Main App)
 
+## File structure
+    .
+    ├── .github
+    |   ├── workflows                   # Deployment script
+    |   |   ├── auth.yml
+    |   |   ├── dashboard.yml
+    |   |   ├── container.yml
+    |   |   └── marketing.yml
+    ├── packages                        # Container App & Sub-Apps
+    │   ├── auth                        # Auth Sub-App
+    |   |   ├── public
+    |   |   ├── config
+    |   |   ├── src
+    |   |   ├── package.json
+    |   |   └── ... 
+    │   ├── container                   # Container App
+    |   |   ├── public
+    |   |   ├── config
+    |   |   ├── src
+    |   |   ├── package.json
+    |   |   └── ... 
+    │   ├── marketing                   # Marketing Sub-App
+    |   |   ├── public
+    |   |   ├── config
+    |   |   ├── src
+    |   |   ├── package.json
+    |   |   └── ... 
+    │   └── dashboard                   # Dashboard Sub-App
+    |   |   ├── public
+    |   |   ├── config
+    |   |   ├── src
+    |   |   ├── package.json
+    |   |   └── ... 
+    └── README.md
+
 ## How to deploy:
 1. Prepare your AWS account
 2. Create your own S3 bucket and cloudFront distribution
@@ -20,3 +55,5 @@ Check Demo url: https://d338ek8892e0fm.cloudfront.net
 - Many front-end deployment solutions assume you're deploying a single project. We need something that can handle multiple different ones
 - Probably need a CI/CD pipline of some sort
 - At present, the remoteEntry.js file name is fixed. Need to think about caching issues
+
+
